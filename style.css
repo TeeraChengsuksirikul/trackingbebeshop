@@ -1,0 +1,169 @@
+/*body{
+  color: rgba(255, 255, 255, 0.137)!important;
+  /*padding: 10px;
+}
+/*body{
+  color: rgba(32, 29, 29, 0.295)!important;
+}*/
+
+div.btn {
+  margin: 0px 3px;
+  padding: 2px;
+}
+.social li{
+  display: inline;
+  padding-left: 5%!important;
+}
+
+a {
+  
+  font-size: 16px;
+}
+
+.header {
+  /*width: 100%!important;*/
+  width: 100%;
+  margin-left: 0%;
+  margin-right: 0%;
+  /*background-color: #b0efff;*/
+  background-color: #daf6ff;
+}
+
+.header h1 {
+  font-size: 25px;
+    padding-top: 15%;
+}
+.header h4 {
+  font-size: 18px;
+    padding-top: 15%;
+}
+.header h5 {
+  font-size: 15px;
+    padding-top: 15%;
+    font-weight: bold;
+}
+
+.logo-img{
+  margin: auto;
+  width: auto;
+  height: auto;
+  padding: 20px;
+}
+
+.social {
+  padding-top:5%;
+}
+
+.social a:hover{
+  color:#000000!important;
+}
+
+.social i{
+  font-size: 25px!important;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+
+.carousel-control-next{
+  top: 70%!important;
+  margin-right: 20%;
+}
+
+/*.main a {
+  background-color:aquamarine;
+  width: 30%;
+  height: 25%;
+}*/
+
+.fas {
+  color: white!important;
+}
+
+img {
+  width: 100%;
+}
+
+
+.text p{
+  font-size: 18px;
+}
+
+ button {
+      margin-left: 40%;
+      background-color: #34d6ff;
+      color: white;
+      padding: 2% 9% 2% 9%;
+}
+
+
+.bgmain {
+  position:relative !important;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+
+@keyframes animate{
+    0%,100%{
+        background-image: url('images/bebe_bg1.png');
+    }
+    50%{
+        background-image: url('images/bebe_bg2.png');
+    }
+}
+
+.bgmain::before {
+  content: "";
+  animation: animate 8s ease-in-out infinite;
+  background-size:cover;
+  position:absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  filter: brightness(45%);
+}
+
+
+
+/*.bgmain {
+  content: "";
+  animation: animate 8s ease-in-out infinite;
+  background-size:cover;
+  position:absolute ;
+  z-index: 1;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}*/
+
+.bgfont {
+  color: #fff;
+}
+
+
+div .form_input  {
+  margin: 5px 20px;
+}
+
+.font_kanit {
+  font-family: 'Kanit', sans-serif;
+  
+}
+
+tbody .font_kanit{
+  font-family: 'Kanit', sans-serif;
+  font-weight: lighter;
+}
+
+
+.table-header {
+  font-weight: bold;
+}
